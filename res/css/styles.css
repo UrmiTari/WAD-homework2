@@ -1,6 +1,7 @@
 * {
     font-family: sans-serif;
     box-sizing: border-box;
+    background: beige;
 }
 
 header {
@@ -13,8 +14,8 @@ a:hover {
     text-decoration: underline;
 }
 
+
 h1 {
-    display: block;
     font-size: 2em;
     margin-top: 0.67em;
     margin-bottom: 0.67em;
@@ -25,9 +26,28 @@ h1 {
     color: #587291;
 }
 
-.logo {
+#logo{
+    max-width: 10%;
+}
+
+img {
+    display: inline-block;
+    border: 1px solid #ddd;
     max-width: 10%;
     height: auto;
 }
 
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
 
+.item {
+    order: inherit;
+}
+
+.box {
+    background-color: #ffd2fc;
+    margin: 4em 4em 4em 4em
+}
