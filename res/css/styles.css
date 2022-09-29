@@ -1,0 +1,33 @@
+* {
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #1ccad8;
+    padding: 20px 10px;
+}
+
+a:hover {
+    color: #2f97c1;
+    text-decoration: underline;
+}
+
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+    font-size: larger;
+    color: #587291;
+}
+
+.logo {
+    max-width: 10%;
+    height: auto;
+}
+
+
