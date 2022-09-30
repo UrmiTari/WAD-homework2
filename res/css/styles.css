@@ -1,7 +1,10 @@
 * {
     font-family: sans-serif;
     box-sizing: border-box;
-    background: beige;
+}
+
+body {
+    background-color: beige;
 }
 
 header {
@@ -15,6 +18,7 @@ a:hover {
 }
 
 
+
 h1 {
     font-size: 2em;
     margin-top: 0.67em;
@@ -22,7 +26,6 @@ h1 {
     margin-left: 0;
     margin-right: 0;
     font-weight: bold;
-    font-size: larger;
     color: #587291;
 }
 
@@ -30,12 +33,6 @@ h1 {
     max-width: 10%;
 }
 
-img {
-    display: inline-block;
-    border: 1px solid #ddd;
-    max-width: 10%;
-    height: auto;
-}
 
 .container{
     display: flex;
@@ -45,9 +42,33 @@ img {
 
 .item {
     order: inherit;
+    background-color: #ffd2fc;
+    margin: 4em ;
+    align-items: center;
+    justify-content: center;
+    padding: 1em;
 }
 
-.box {
-    background-color: #ffd2fc;
-    margin: 4em 4em 4em 4em
+.textformating1 {
+    color: #1ccad8;
+    font-size: 1em;
+    text-align: center;
+
+}
+
+.textformating2 {
+    font-size: 1em;
+    text-align: center;
+}
+
+input {
+    text-align: center;
+    margin: 0.5em;
+}
+
+button {
+    margin: 0.5em;
+    text-align: center;
+    align-items: center;
+    background-color: deeppink;
 }
