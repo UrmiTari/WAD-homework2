@@ -7,17 +7,19 @@ body {
     background-color: beige;
 }
 
-header {
+nav {
     background-color: #1ccad8;
     padding: 20px 10px;
+}
+
+.navbar li {
+    display: inline-block;
 }
 
 a:hover {
     color: #2f97c1;
     text-decoration: underline;
 }
-
-
 
 h1 {
     font-size: 2em;
@@ -30,14 +32,19 @@ h1 {
 }
 
 #logo{
-    max-width: 10%;
+    width: 8em;
 }
-
 
 .container{
     display: flex;
     flex-direction: row;
     justify-content: center;
+}
+
+containerNavbar{
+    display: flex;
+    flex-direction: row;
+
 }
 
 .item {
