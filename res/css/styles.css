@@ -11,14 +11,14 @@ nav {
     background-color: #1ccad8;
     padding: 20px 10px;
 }
-
-header {
-    justify-content: space-between;
-    display: flex;
-}
-
 .navbar li {
     display: inline-block;
+    padding: 0.3em;
+
+}
+
+a{
+    text-decoration: none;
 }
 
 a:hover {
@@ -79,6 +79,7 @@ containerNavbar{
 input {
     text-align: center;
     margin: 0.5em;
+
 }
 
 button {
@@ -86,4 +87,17 @@ button {
     text-align: center;
     align-items: center;
     background-color: deeppink;
+}
+
+#button {
+    text-align: center;
+    align-items: center;
+    background-color: deeppink;
+    text-decoration: none;
+}
+
+footer {
+    background-color: #1ccad8;
+    padding: 20px 10px;
+    text-align: center;
 }
