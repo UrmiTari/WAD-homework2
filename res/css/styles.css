@@ -53,7 +53,6 @@ h1 {
 containerNavbar{
     display: flex;
     flex-direction: row;
-
 }
 
 .item {
