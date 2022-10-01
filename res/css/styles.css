@@ -34,7 +34,9 @@ h1 {
 
 #logo{
     width: 8em;
-    position: center;
+    position: absolute;
+    top: 2.5em;
+    right: 2.5em;
 }
 
 .container{
