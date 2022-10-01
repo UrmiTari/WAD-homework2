@@ -31,8 +31,10 @@ h1 {
     color: #587291;
 }
 
+
 #logo{
     width: 8em;
+    position: center;
 }
 
 .container{
