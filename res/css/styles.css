@@ -9,12 +9,18 @@ body {
 
 nav {
     background-color: #1ccad8;
-    padding: 20px 10px;
+    padding: 1em 1em;
 }
+
 .navbar li {
     display: inline-block;
     padding: 0.3em;
 
+}
+
+
+navbar {
+    justify-content: space-between;
 }
 
 a{
@@ -27,7 +33,7 @@ a:hover {
 }
 
 h1 {
-    font-size: 2em;
+    font-size: xx-large;
     margin-top: 0.67em;
     margin-bottom: 0.67em;
     margin-left: 0;
