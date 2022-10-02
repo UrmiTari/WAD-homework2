@@ -4,6 +4,7 @@
     font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
     font-weight: bold;
+    margin:0;
 }
 
 body {
@@ -29,12 +30,6 @@ h2 ~ h4 {
 
 h4 + p {
     text-align: right;
-}
-
-
-
-navbar {
-    justify-content: space-between;
 }
 
 a{
