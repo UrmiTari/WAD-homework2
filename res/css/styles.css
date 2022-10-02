@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
 * {
-    font-family: sans-serif;
+    font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
+    font-weight: bold;
 }
 
 body {
@@ -70,6 +73,7 @@ h1 {
     padding: 1em;
 }
 
+
 .textformating1 {
     color: #1ccad8;
     font-size: 1em;
@@ -106,4 +110,8 @@ footer {
     background-color: #1ccad8;
     padding: 20px 10px;
     text-align: center;
+}
+
+textarea {
+    rows: 10;
 }
