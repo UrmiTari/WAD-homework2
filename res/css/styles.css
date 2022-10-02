@@ -13,6 +13,8 @@ body {
 nav {
     background-color: #1ccad8;
     padding: 0.5em 0.5em;
+    display: flex;
+    justify-content: space-between;
 }
 
 .navbar li {
@@ -46,10 +48,7 @@ a:hover {
 
 h1 {
     font-size: xx-large;
-    margin-top: 0.67em;
-    margin-bottom: 0.67em;
-    margin-left: 0;
-    margin-right: 0;
+    margin: 0.67em 0;
     font-weight: bold;
     color: #587291;
 }
@@ -57,9 +56,9 @@ h1 {
 
 #logo{
     width: 8em;
-    position: absolute;
     top: 2em;
     right: 2em;
+    border-radius: 50%  ;
 }
 
 .container{
@@ -71,6 +70,12 @@ h1 {
 .containerNavbar{
     display: flex;
     flex-direction: row;
+    width: 60%;
+}
+
+.containerNavbar li {
+    flex-basis: content;
+    margin: 0;
 }
 
 .item {
@@ -124,6 +129,8 @@ footer {
     text-align: center;
 }
 
-textarea {
-    rows: 10;
+@media (max-width: 500px) {
+    .containerNavbar li {
+        line-height: 1em;
+    }
 }

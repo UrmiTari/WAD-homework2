@@ -54,6 +54,12 @@
 .post-header {
     display:flex;
     justify-content: space-between;
+    padding-bottom: 1em;
+}
+
+.post-header img {
+    width: 5em;
+    border-radius: 50%;
 }
 
 @media (max-width: 1000px) {
