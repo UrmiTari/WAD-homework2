@@ -12,7 +12,7 @@
 }
 
 .left {
-    background: blueviolet;
+    background: #ffd2fc;
     float: left;
     flex-basis: 10%;
     flex-grow: 1;
@@ -37,7 +37,7 @@
     width: 100%;
 }
 .right {
-    background: blueviolet;
+    background: #ffd2fc;
     width: 10em;
     flex-basis: 10%;
     flex-grow: 1;
