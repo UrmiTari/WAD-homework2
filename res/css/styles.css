@@ -21,6 +21,15 @@ nav {
 
 }
 
+h2 ~ h4 {
+    font-style: italic;
+}
+
+h4 + p {
+    text-align: right;
+}
+
+
 
 navbar {
     justify-content: space-between;
