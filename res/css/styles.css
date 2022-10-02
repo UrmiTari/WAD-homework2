@@ -56,7 +56,7 @@ h1 {
     justify-content: center;
 }
 
-containerNavbar{
+.containerNavbar{
     display: flex;
     flex-direction: row;
 }

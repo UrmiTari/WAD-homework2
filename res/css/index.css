@@ -22,13 +22,11 @@
     max-width: 60%;
     overflow: hidden;
     padding: 1em 5em 1em 5em;
-    background: #2f97c1;
     flex-grow: 3;
 
 }
 
 .post {
-    width:80%;
     background: #1ccad8;
     padding: 1em 2em 1em 2em;
     margin-top:2em;
