@@ -9,7 +9,7 @@ body {
 
 nav {
     background-color: #1ccad8;
-    padding: 1em 1em;
+    padding: 0.5em 0.5em;
 }
 
 .navbar li {
@@ -46,8 +46,8 @@ h1 {
 #logo{
     width: 8em;
     position: absolute;
-    top: 2.5em;
-    right: 2.5em;
+    top: 2em;
+    right: 2em;
 }
 
 .container{
@@ -68,6 +68,7 @@ h1 {
     align-items: center;
     justify-content: center;
     padding: 1em;
+    border-radius: 20px;
 }
 
 .textformating1 {
@@ -92,14 +93,16 @@ button {
     margin: 0.5em;
     text-align: center;
     align-items: center;
-    background-color: deeppink;
+    background-color: #1ccad8;
 }
 
-#button {
+#buttonInput {
     text-align: center;
     align-items: center;
-    background-color: deeppink;
+    background-color: #1ccad8;
     text-decoration: none;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 footer {
