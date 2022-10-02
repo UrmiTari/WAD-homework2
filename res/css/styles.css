@@ -4,11 +4,11 @@
     font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
     font-weight: bold;
-    margin:0;
 }
 
 body {
     background-color: beige;
+    margin: 0;
 }
 
 nav {
@@ -16,6 +16,7 @@ nav {
     padding: 0.5em 0.5em;
     display: flex;
     justify-content: space-between;
+    margin: 0;
 }
 
 .navbar li {
@@ -95,7 +96,14 @@ h1 {
     font-size: 1em;
     text-align: center;
 }
+textarea {
+    vertical-align: top;
+}
 
+label {
+    display:inline-block;
+
+}
 input {
     text-align: center;
     margin: 0.5em;
@@ -122,6 +130,7 @@ footer {
     background-color: #1ccad8;
     padding: 20px 10px;
     text-align: center;
+    margin: 0;
 }
 
 footer li{
