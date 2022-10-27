@@ -1,0 +1,11 @@
+[
+    {
+      "userId": 1,
+      "id": 1,
+      "profilePic": "/res/images/profile1.png",
+      "date": "Oct 22, 2022",
+      "bodyImage": "/res/images/tartu.jpg",
+      "postImageAlt": "Tartu town square",
+      "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+    }
+  ]
