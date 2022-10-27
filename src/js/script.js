@@ -27,7 +27,7 @@ window.onload = function () {
                 profilePic.src = el.profilePic
                 profilePic.alt = "Profile Picture"
 
-                var  dateText = document.createElement("p")
+                var dateText = document.createElement("p")
                 dateText.innerHTML = el.date
 
                 header.appendChild(profilePic)
@@ -129,7 +129,6 @@ window.onload = function () {
     */
 
 }
-
 
 
 function menuToggle() {
