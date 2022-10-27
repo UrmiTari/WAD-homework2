@@ -1,7 +1,7 @@
 window.onload = function () {
 
     // Data from a file
-    fetch("https://www.jsonkeeper.com/b/KJ9R").then((response) => response.json())
+    fetch("/res/json/posts.json").then((response) => response.json())
         .then(json => {
             console.log(json);
             for (const el of json) {
