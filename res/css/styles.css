@@ -33,7 +33,7 @@ h4 + p {
     text-align: right;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
@@ -50,39 +50,68 @@ h1 {
 }
 
 
-#logo{
+#logo {
     float: left;
     width: 5em;
     margin-top: 2em;
     right: 2em;
-    border-radius: 50%  ;
+    border-radius: 50%;
 }
 
 .menu {
     display: none;
 }
+
 .menu.active {
     display: flex;
     flex-direction: column;;
-    width: 100px;
+    width: max-content;
     position: absolute;
-    top: 7em;
-    right: 100px;
+    top: 8em;
+    right: 1em;
     background: pink;
-
+    border-radius: 1em;
 }
+
+.menu::before {
+    content: "";
+    position: absolute;
+    top: -5px;
+    right: 28px;
+    width: 20px;
+    height: 20px;
+    transform: rotate(45deg);
+    background: pink;
+}
+
+.menu h3 {
+    width: 100%;
+    text-align: center;
+    line-height: 1.5em;
+    font-size: 1.25em;
+}
+
+.menu h3 span {
+    font-size: 1em;
+}
+
 .menu.active li {
-    padding: 0;
-    margin:0;
+    width: 100%;
+    padding:0.75em 0 0.75em 0;
 }
 
-.container{
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.container {
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
 
-.containerNavbar{
+.containerNavbar {
     display: flex;
     flex-direction: row;
     width: 60%;
@@ -96,7 +125,7 @@ h1 {
 .item {
     order: inherit;
     background-color: #ffd2fc;
-    margin: 4em ;
+    margin: 4em;
     align-items: center;
     justify-content: center;
     padding: 1em;
@@ -115,14 +144,16 @@ h1 {
     font-size: 1em;
     text-align: center;
 }
+
 textarea {
     vertical-align: top;
 }
 
 label {
-    display:inline-block;
+    display: inline-block;
 
 }
+
 input {
     text-align: center;
     margin: 0.5em;
@@ -152,7 +183,7 @@ footer {
     margin: 0;
 }
 
-footer li{
+footer li {
     display: inline-block;
     padding-right: 1em;
 }
